@@ -1,0 +1,22 @@
+﻿<I14>Ple■se                                                                f                                            i         ll   In  your  detalla   to   reglater<fhl>
+<div  id=lcontent2'>
+<form  name--RegisrerForm"   action.■"inmersDara.:3p"   acricri  "PO5T">
+<t■b2e  border="0"›
+<tbody>
+<tr>
+<td›First  Name<iftd>
+<td>‹input                                                                 1=ype="texr"   name="firstnamem   value="u   /></td>
+</tr>
+<tr>
+<cd>Last  Name<Jud>
+<td><Inclat   typc='text"'   name=---aztname"   Value=""                   /></td>
+</tr>
+<mr>
+<td>Addrezz<itd>
+<td><textarea  name="address"   rows="4n   cc:115=1'20'T>
+</textarea></td>
+</tr>
+<tr>
+<td>Phone  NuMber<itd>
+<td><input   type="textn   name="phoneNon  value=""                        /></td>
+</tr>

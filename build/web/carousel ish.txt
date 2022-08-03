@@ -1,0 +1,208 @@
+<header id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+        <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+          </ol>
+     
+    <div class="register-box"> 
+      <div class="container">
+        <div class="panel panel-default panel-banner">
+          <div class="panel-body">
+            
+                          <img src="http://gflenv.com/wp-content/uploads/2016/07/screen.png" class="img-responsive" alt="">
+            
+                        <h4>MY ACCOUNT</h4>
+            
+                        <p>Commercial Customer Ordering / Payment</p>
+            
+                        <a href="https://eportal.gflenv.com/eportal/login.aspx" target="_blank" class="btn btn-default btn-learn">
+
+                          Register / Sign In            
+            </a>
+                      </div>
+
+                  </div>
+      </div>
+    </div>
+    <div class="carousel-inner carousel-home-slider">
+                     <div class="item active">
+         <div class="fill" style="background-image:url(http://gflenv.com/wp-content/uploads/2016/07/img_1-1920x598.jpg);"></div>
+        </div>
+                     <div class="item ">
+         <div class="fill" style="background-image:url(http://gflenv.com/wp-content/uploads/2016/07/gfl-truck.jpg);"></div>
+        </div>
+                     <div class="item ">
+         <div class="fill" style="background-image:url(http://gflenv.com/wp-content/uploads/2016/11/img_3-1-1920x598.jpg);"></div>
+        </div>
+                     <div class="item ">
+         <div class="fill" style="background-image:url(http://gflenv.com/wp-content/uploads/2016/11/img_4-1920x642.jpg);"></div>
+        </div>
+                     <div class="item ">
+         <div class="fill" style="background-image:url(http://gflenv.com/wp-content/uploads/2016/07/img_4-03-1920x642.jpg);"></div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="icon-next"></span>
+    </a>
+  </header>
+ 
+  <!-- Green Carousel -->
+  <aside class="green-baner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          
+                          <div class="col-md-9 text-center carousel">
+                <div class="carousel-inner">
+                                <div class="item active">
+                  <h2 class="fill">Green Today. Green For Life.</h2>
+                </div>
+                                <div class="item ">
+                  <h2 class="fill">Green Today. Green For Life.</h2>
+                </div>
+                                <div class="item ">
+                  <h2 class="fill">Green Today. Green For Life.</h2>
+                </div>
+                                <div class="item ">
+                  <h2 class="fill">Green Today. Green For Life.</h2>
+                </div>
+                                <div class="item ">
+                  <h2 class="fill">Green Today. Green For Life.</h2>
+                </div>
+                               </div>
+              </div>
+
+              <div class="col-md-3 text-center carousel">
+                <div class="carousel-inner">
+                                  <div class="item active">
+                    <a href="http://gflenv.com/about-us/" class="btn btn-default">
+                                          Learn More                                        </a>
+                  </div>
+                                  <div class="item ">
+                    <a href="http://gflenv.com/about-us/" class="btn btn-default">
+                                          Learn More                                        </a>
+                  </div>
+                                  <div class="item ">
+                    <a href="http://gflenv.com/about-us/" class="btn btn-default">
+                                          Learn More                                        </a>
+                  </div>
+                                  <div class="item ">
+                    <a href="http://gflenv.com/about-us/" class="btn btn-default">
+                                          Learn More                                        </a>
+                  </div>
+                                  <div class="item ">
+                    <a href="http://gflenv.com/about-us/" class="btn btn-default">
+                                          Learn More                                        </a>
+                  </div>
+                                </div>
+              </div>
+                      
+        </div>
+      </div>
+    </div>
+  </aside>
+  <!-- Service Section -->
+  <section class="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          
+          <div class="carousel-inner">
+                                       <div class="item ">
+               <div class="fill" style="background-image:url(http://gflenv.com/wp-content/uploads/2016/07/img_1-1920x598.jpg);"></div>
+              </div>
+                                       <div class="item ">
+               <div class="fill" style="background-image:url(http://gflenv.com/wp-content/uploads/2016/07/gfl-truck.jpg);"></div>
+              </div>
+                                       <div class="item ">
+               <div class="fill" style="background-image:url(http://gflenv.com/wp-content/uploads/2016/11/img_3-1-1920x598.jpg);"></div>
+              </div>
+                                       <div class="item ">
+               <div class="fill" style="background-image:url(http://gflenv.com/wp-content/uploads/2016/11/img_4-1920x642.jpg);"></div>
+              </div>
+                                       <div class="item ">
+               <div class="fill" style="background-image:url(http://gflenv.com/wp-content/uploads/2016/07/img_4-03-1920x642.jpg);"></div>
+              </div>
+                      </div>
+
+
+
+
+header.carousel {
+  height: 400px;
+  min-height: 400px;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+  height: 100%;
+}
+
+header.carousel .fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+@media(max-width:767px) {
+  .img-portfolio {
+    margin-bottom: 15px;
+  }
+
+  header.carousel .carousel {
+    height: 70%;
+  }
+}
+header.carousel{
+  height: 400px;
+}
+.carousel-control .icon-next, .carousel-control .icon-prev {
+  margin-top: -40px;
+  font-size: 70px;
+}
+.carousel-indicators li {
+  width:20px;
+  height: 20px;
+  background-color: rgba(0,0,0,0.2);
+  border: none;
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  width:20px;
+  height: 20px;
+  background-color: rgba(92,92,92,0.8);
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 20%;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: 20%;
+}
+@media (max-width: 645px){
+  header.carousel{
+    height: 40%;
+    min-height: 1px;
+  }
+  @media (max-height: 361px){
+  header.carousel{
+    height: 60%;
+  }
+}
+
+
+
+
+
+
+
+
+
+

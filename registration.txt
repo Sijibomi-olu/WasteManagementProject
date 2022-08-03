@@ -1,0 +1,63 @@
+<header></header>
+        <nav>
+            <ul>
+            <li><a  href='index.jsp'>Home</a></li>
+            <li><a  href='registration.jsp'>Registration</a></li>
+            <li><a  href='#'>Services</a></li>
+            <li><a  href='#'>About</a></li>
+            <li><a  href='#'>contact Us</a></li>
+            </ul>
+        </nav>
+        <div  id='content'>
+        <br>
+        <h1>Number 1 Reliable Waste Management System</h1>
+        <article>
+        We  offer  you  the  best  waste  mangement you  can  think  of  and  we  deliver  on time.
+        Please  contact us
+        </article>
+            <h4>Please fill in your details to register</h4>
+            <div  id='content2'>
+            <form  name=RegisterForm" action="insertData.jsp" action="POST">
+            <table border="0">
+                <tbody>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" name="firstnamem" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Last  Name</td>
+                        <td><input type="text" name="lastname" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><textarea name="address" rows="4" cols="20">
+                        </textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="text" name="phoneNo" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Sex</td>
+                        <td>
+                            <select name="sex">
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="password" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" name="buttonname" value="REGISTER" id='btn' /></td>
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+            </div>
+        </div>
+        <footer>Copyright 2019 by Green Earth™ </footer>
+        

@@ -1,0 +1,289 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2020, 6:10:34 PM
+    Author     : siji4
+*/
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    background: linear-gradient(to right, #15493d, whitesmoke, #15493d);
+    //height: 10vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    //background-position: center center;
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("rrr.jpg");
+    height: 10vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 14px;
+    transition: 0.6s ease;
+}
+.nav-area li a:hover{
+    background: #09df09;
+    color: #333;
+}
+.nav-area li.active a{
+    background: #09df09;
+    color: #333;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcome-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.welcome-text a:hover{
+    background: #fff;
+    color: #333;
+}
+
+
+
+
+
+
+
+/*ADMIN CSS*/
+#adminavatar
+{
+    border-style: solid;
+    padding: 50px;
+    border-radius: 10000px;
+    border-color: rgb(66,81,74);
+    border-width: 0px;
+    position: relative;
+    left: 0px;
+}
+#pickup-table
+{
+    width: 55%;
+    height: 80%;
+    margin: auto;
+    border: solid transparent;
+    border-radius: 15px;
+    color: #09df09;
+}
+#pickup-table th
+{
+    background: transparent;
+    /*background-image: linear-gradient(to right,#09df09, #15493d);*/
+    color: white;
+    border: solid transparent;
+    border-radius: 10px;
+}
+/*@keyframes btn
+{
+    from{padding-left:100px}
+    to{padding-right:100px}
+}*/
+#viewpickups:hover
+{
+    background: green;
+    color: rgb(66,81,74);
+}
+#viewpickups
+{
+    width: 50%;
+    height: 40px;
+    border: solid white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#09df09, #15493d);
+    /*background: transparent;*/
+    margin: 10px;
+    color: white;
+    animation-iteration-count: infinite;
+    animation-name: btn;
+    animation-direction: alternate;
+    animation-duration: 2s;
+}
+#weight
+{
+    color: #00cc00;
+    border: solid #15493d;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    text-align: left;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+#weight input[type="submit"]:hover
+{
+    background: green;
+    color: white;
+    height: 30px;
+}
+#weight input[type="submit"]
+{
+    background-image: linear-gradient(to right,#09df09, #15493d);
+    border: 1px solid white;
+    color: rgb(66,81,74);
+    height: 30px;
+    border-color: rgb(66,81,74);
+    width: 50%;
+}
+#pickups
+{
+    
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("rrr.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    inline-box-align: last;
+    margin: auto;
+    width: 55%;
+    color: rgb(66,81,74);
+    //background: white;
+    border: solid 2px;
+    border-radius: 15px;
+    padding: 5px;
+}
+#avatar2
+{
+    position: relative;
+    left: -30px;
+    border-style: solid;
+    padding: 50px;
+    border-radius: 100px;
+    border-color: rgb(66,81,74);
+    border-width: 0px;
+}
+#details
+{
+    color: #00cc00;
+    position: relative;
+    left: -60px;
+}
+#locationbox
+{
+    color: #00cc00;
+    width: 70%;
+    position: relative;
+    left: -40px;
+    text-align: left;
+    border: solid 0px;
+    border-color: #15493d;
+    border-radius: 15px;
+    padding: 00px 0px 10px 0px;
+}
+#info
+{
+    border: 0px;
+    color: #00cc00;
+    text-decoration: underline;
+    font-size: 17px;
+    margin-bottom: 5px;
+    width: 85%;
+    background: transparent;
+}
+#weightEnter
+{
+    background: #00cc00;
+    color: white;
+    width: 50px;
+}
+
+
+#profilebox
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*border-style: solid;*/
+    border-radius: 40px;
+    margin: 100px 0px 0px 0px;
+    width: 70%;
+    color: whitesmoke;
+    line-height: 13px;
+    
+    
+    width: 400px;
+    margin: auto;
+    background-image: linear-gradient(to right, #15493d, green);
+    //background: #398f14;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    position: relative;
+    //top: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 70%;
+}
+.approvePickup{
+    /*width: 10%;*/
+    border-radius: 20px;
+}
+.stuff{
+    /*background-position: left;*/
+    position: relative;
+    
+}
+.stuff1{
+    color: green;
+    text-align: center;
+    position: relative;
+    right: -260px;
+    
+    width: 12%;
+    /*height: 40px;*/
+    border: transparent;
+    border-radius: 10px;
+    /*background-image: linear-gradient(to right,#09df09, #15493d);*/
+    /*background: transparent;*/
+    margin: 10px;
+    color: white;
+}

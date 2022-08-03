@@ -1,0 +1,17 @@
+<div>
+                <table border="0" id="det">
+                    <tbody>
+                        <tr>
+                            <!--<td style="width: 20%;"><img id="avatar" src="r4.jpg"></td>-->
+                            <td>
+                                <strong style="text-transform: uppercase; font-size: 30px;"><%= session.getAttribute("username").toString()%></strong><br><hr>
+                                <u>Sex: </u> <%= session.getAttribute("sex").toString() %><br><br>
+                                <u>E-mail: </u> <%= session.getAttribute("email").toString() %><br><br>
+                                <u>Phone Number: </u> <%= session.getAttribute("phoneno").toString() %><br><br>
+                                <u>Current Points: </u> <%= session.getAttribute("points").toString() %><br><br><br>
+                                <a href="#prizes" id="checkprizes">Check Prizes Won</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>

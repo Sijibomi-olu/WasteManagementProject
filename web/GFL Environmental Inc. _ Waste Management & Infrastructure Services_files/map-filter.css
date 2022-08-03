@@ -1,0 +1,21 @@
+.locations-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 40px);
+    margin: -20px;
+}
+
+.location {
+    width: calc(50% - 40px);
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .location {
+        width: calc(100% - 40px);
+    }
+}
+
+.gm-style-iw .row {
+    margin: 0;
+}

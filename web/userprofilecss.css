@@ -1,0 +1,298 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 10, 2020, 6:04:10 PM
+    Author     : siji4
+*/
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("rrr.jpg");
+    height: 10vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    //background-position: center center;
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("rrr.jpg");
+    height: 10vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 14px;
+    transition: 0.6s ease;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.nav-area li.active a{
+    background: #fff;
+    color: #333;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcome-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.welcome-text a:hover{
+    background: #fff;
+    color: #333;
+}
+
+
+#profilebox
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-style: solid;
+    //border-radius: 40px;
+    margin: 100px 0px 0px 0px;
+    width: auto;
+    color: rgb(66,81,74);
+    line-height: 13px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(rrr.jpg);
+    background-size: cover;
+    margin-top: 150px !important;
+    
+/*    width: 400px;
+    margin: auto;
+    background-image: linear-gradient(to right, #15493d, green);
+    //background: #398f14;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    position: relative;
+    //top: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 70%;*/
+}
+#avatar
+{
+    border-style: solid;
+    padding: 50px;
+    border-radius: 100px;
+    border-color: rgb(66,81,74);
+    border-width: 1px;
+    margin-left: 25px;
+    margin-right: 50px;
+    position: relative;
+    left: 300px;
+}
+#pickup-form
+{
+    background: orange;
+    background-image: linear-gradient(to right, orangered, orange);
+    opacity: 85%;
+    position: relative;
+    top: 30px;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    //border: solid 1px;
+    border-radius: 50px;
+    //border-width: 2px;
+    color: rgb(66,81,74);
+    //border-color: rgb(66,81,74);
+    padding:50px;
+}
+#address
+{
+    background: transparent;
+    color: white;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(66,81,74);
+    padding-left: 5px;
+    text-align: center;
+}
+#submitbtn:hover
+{
+    background: #ff6600;
+    color: white;
+    border-color: rgb(66,81,74);
+}
+#submitbtn
+{
+    color: rgb(66,81,74);
+    width: 30%;
+    height: 40px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(66,81,74);
+    background: transparent;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+#submitbtn1
+{
+    color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(66,81,74);
+    background-image: linear-gradient(to right, green, #09df09);
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+#submitbtn1:hover
+{
+    background: #09df09;
+    color: white;
+    border-color: rgb(66,81,74);
+}
+#cornered
+{
+    width: 100%;
+    height: 30px;
+    background: #15493d;
+    position: relative;
+    text-align: center;
+    color: white;
+    left: 0px;
+}
+#pickup-text
+{
+    font-size: 20px;
+    color: white;
+    height: 30px;
+    padding-top: 15px;
+    width: 100%;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+#pickup-text address{
+    color: green;
+}
+#prizes
+{
+    width: 100%;
+    height: 250px;
+}
+#td1,#td2,#td3,#td4,#td5
+{
+    background: whitesmoke;
+    width: 200px;
+    text-align: center;
+    color: rgb(66,81,74);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    padding:10px;
+    border-color: rgb(66,81,74);
+}
+#topDetails
+{
+    width: 100%;
+}
+#checkprizes
+{
+    border: solid 1px white;
+    padding: 15px 30px;
+    color: white;
+    background: rgb(66,81,74);
+    text-decoration: none;
+    border-radius: 5px;
+}
+#checkprizes:hover
+{
+    background: white;
+    color: rgb(66,81,74);
+    border: solid 1px;
+}
+#det
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    padding:0px 25px 0px 25px; 
+    width: 100%;
+    margin: auto;
+    margin-top: -200px;
+    height: 370px;
+    border-radius: 15px;
+    color: white;
+    background: rgb(66,81,74);
+    //background: rgb(127,127,127);
+    background: grey;
+    text-align: left;
+    //opacity: 0.8;
+}
+
+
+.profile-card
+{
+    width: 400px;
+    margin: auto;
+    background: #398f14;
+    color: white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 70%;
+}
+.image-container{
+    position: relative;
+}
+.main-container{
+    padding: 20px;
+}
+
+
+

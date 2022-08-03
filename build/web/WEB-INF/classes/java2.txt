@@ -1,0 +1,17 @@
+﻿<header></header>
+<nay>
+<ul>
+<li><a  href=iindex.jsp'>Home</a></li>
+<11><a  href=iregistration.  sp'>Registration</a></Ii>
+<11><a  href=14'>Services<ia></li>
+<115-‹a  href=0P>Abcur</a></11>
+<1.i>-<a  href="V>consact  Us<ta></li>
+</ul>
+</nav>
+<div  id—'content'>
+<br>
+<h4>WELCOME  TO  TASTY  BURGERS  DELIVERY  SYSTEM</h4>
+<article>
+We  offer  you  the  best  burger  you  can  think  of  and  we  deliver  it  straight  to  your  door  step.
+Please  make  sure  you  order  right  now
+</article>

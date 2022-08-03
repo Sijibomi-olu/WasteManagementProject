@@ -1,0 +1,16 @@
+﻿   <body>
+   <%!
+            String usernameStored;
+            String passwordStored;
+            Connection con;
+            PreparedStatement st;
+            ResultSet res;
+   %>
+   <%
+   try      {
+            usernameStored = "";
+            passwordStored = "";
+            String usernameEntered =request.getParameter("name").trim();
+            String passwordEntered =request.getParameter("password").trim();
+            String sql="SELECT * FROM verification WHERE (firstname ='"+usernameEntered+"'" 
+			+ " AND password ='"+passwordEntered+"')";

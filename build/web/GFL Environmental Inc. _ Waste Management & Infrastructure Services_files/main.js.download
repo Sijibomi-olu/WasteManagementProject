@@ -1,0 +1,71 @@
+jQuery(function($) {
+  //placeholder for IE
+  $("input, textarea").placeholder({
+    customClass: 'placeholder'
+  });
+
+  $('.carousel').carousel({
+      interval: 5000,
+      pause: 'none'
+  });
+  $('.carousel').on('click', '.carousel-control[data-slide]', function (ev) {
+      ev.preventDefault();
+      $('.carousel').carousel($(this).data('slide'));
+  });
+  $('.carousel').on('mouseover', function (ev) {
+      ev.preventDefault();
+      $('.carousel').carousel('pause');
+  });
+  $('.carousel').on('mouseleave', function (ev) {
+      ev.preventDefault();
+      $('.carousel').carousel('cycle');
+  });
+
+
+  // $(document).on('click', 'a[href="#header-lv-chat"]', function () {
+  //   $zopim(function() {
+  //     $zopim.livechat.window.show();
+  //   });
+  //   return false
+  // });
+
+// sticky footer
+
+  function changeFooterPadding() {
+    var stickyFooterHeight = $('.s-footer').is(':visible') ? $('.s-footer').outerHeight() - 10 : 15;
+    $('.footer').css('padding-bottom', stickyFooterHeight);
+  } 
+  if (sessionStorage.getItem('hideFooter') == 'true') {
+    console.log('true')
+  } else {
+    $('.s-footer').show();
+    changeFooterPadding();
+  }
+  $(document).on('click', '.s-footer-close', function() {
+    $('.s-footer').remove();
+    changeFooterPadding();
+    sessionStorage.setItem('hideFooter', 'true');
+    return false;
+  });
+  $(window).resize(function() {
+    changeFooterPadding();
+  });
+
+  $(document).on('click', '.address_different .wpcf7-list-item-label', function() {
+    var strAdrress = $('input[name="address"]').val();
+    var city = $('input[name="city"]').val();
+    var province = $('input[name="province"]').val();
+    var postCode = $('input[name="postal"]').val();
+    if($(this).text() === 'No') {
+      $('input[name="m-address"]').val(strAdrress);
+      $('input[name="m-city"]').val(city);
+      $('input[name="m-province"]').val(province);
+      $('input[name="m-postal"]').val(postCode);
+    }
+  });
+
+  $(document).on('click', '.s-footer .btn, .live-chat-btn a', function() {
+    parent.LC_API.open_chat_window();
+    return false;
+  });
+});

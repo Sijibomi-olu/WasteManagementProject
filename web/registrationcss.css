@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 8, 2020, 10:05:41 PM
+    Author     : siji4
+*/
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(r4.jpg);
+    background-size: cover;
+    margin-top: 150px !important;
+}
+.register-left
+{
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+.register-left p
+{
+    padding 20px 20px 0;
+}
+.register-left .btn-primary
+{
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #f8f8f8;
+    font-weight: 600;
+    color: #555;
+    margin-top: 20px;
+    padding: 10px;
+}
+.register-left .btn-primary:hover
+{
+    background: #ff9800;
+}
+.register-right
+{
+    border: none;
+    background: #f8f8f8;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    padding: 50px;
+}
+.register-right h2
+{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
+}
+.register-form
+{
+    padding: 30px;
+}
+.register-right .btn-primary
+{
+    float: right;
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #ff9800;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+}
+.register-right .btn-primary:hover
+{
+    background: #ff5722
+}

@@ -1,0 +1,22 @@
+﻿32               boclemul  verifu- false
+33    :          1C-Leaz..2                   oInne.:t12.7.   7=      =                                                 2                                                   da=aba  c
+34    con  -•=                                                                                                                                                              (Connection)   DriverManager.getConneotion("jdtc:mysql://localincsr/
+55                                                                                                                                                                          +  "onlxnebuTgem'appm,   Hrowc",   u");
+36    fft                                                                                                               (Prepared5zatement)   con-Drevare5catementiactl);
+37    =cm        =0  st..-txtCuttQUtry();
+38               boolean  recordExiats                                                                                                                                      res.mbeolute(1);                                                       //moves   the  reaultSet  to  tFc   first   1ow
+      j_f        (reoordExists                =               true)
+                 verlty=true:
+41
+42               if(ve=ify"."true)
+43                                                                    mesponse7sendRedirect(navailableBurgers.japff);
+44    else
+45                                                                    xesvonae.sendRedlrecr.("regIstratIon-jop");
+46
+47               con.clo6e();
+48
+                 catch   tSQLException  ex)                   (
+55                                                                                                                                                                          +  ex.toSzring()):
+5].
+9
+53    </body3
